@@ -1,3 +1,7 @@
-def main ():
+def main():
     text = input('Message: ')
-    replace
+    new_text = text.replace(' ', '...')
+    print(new_text)
+
+if __name__ == '__main__':
+    main()
