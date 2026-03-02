@@ -1,16 +1,17 @@
 expression = input('Expression: ')
 
-x,y,z = expression.split(' ')
+x_str, y, z_str = expression.split(" ")
 
-x = float 
-z = float 
+x = int(x_str)
+z = int(z_str)
 
 if y == '+':
-    result = x + z 
+    result = x + z
 elif y == '-':
-    result = x - z
+    result = x -z 
 elif y == '*':
-    result = x * z 
+    result = x * z
 elif y == '/':
     result = x / z 
+
 print(result)
